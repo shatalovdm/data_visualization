@@ -35,7 +35,7 @@
 <p>To continue working on visualizations demanding more complex techniques I wanted to choose a tool that would be useful for analyzing categorical data. Having experience with Python I came across some very powerful APIs for graphical analysis such as Seaborn, Pandas, and Matplotlib. </p>
 <p>Eventually, I came up with two visualizations using Seaborn API. I found their <a href="https://stanford.edu/~mwaskom/software/seaborn/api.html">documentation and examples</a> very handy. </p>
 <p>I created the <strong>counter plot</strong> that showed which weekdays were more and less popular for creating account and highlighted the age distribution. Combining this plot with histograms on the axises (JointGrid function of “Seaborn” library gave me a hand) allowed me to explore and explain some patterns.</p>
-<p><img alt="graph1" src="http://dshatalov.com/uploads/graph1.jpg" /></p>
+<p><img alt="graph1" src="graph1.jpg" /></p>
 <p>For the second visualization I used the <strong>violin plot</strong>. It allowed me to combine multiple aspects of data in a single graph and find interesting patterns. With the help of Python APIs I compared four years of observations and plotted it as a single graph. </p>
 <p><img alt="graph2" src="graph2.jpg" /></p>
 <h3>Lessons learned</h3>
@@ -45,44 +45,9 @@
 <li>It is always a bad idea to fit your data to some technique. It should be the other way round. </li>
 <li>Python itself and a great collection of visualization tools created for it make this language one of the best options for Data Science.</li>
 </ul>
-<h3>The code for these two graphs can be found in my repository on <a href="https://github.com/shatalovdm/data_visualization">GitHub</a>.</h3>
             </div>
             <!-- /.entry-content -->
     <hr />
-    <!-- AddThis Button BEGIN -->
-    <div class="addthis_toolbox addthis_default_style">
-            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-            <a class="addthis_button_tweet"></a>
-            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-    </div>
-    <!-- AddThis Button END -->
-    <hr/>
-    <section class="comments" id="comments">
-        <h2>Comments</h2>
-
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'dshatalov'; // required: replace example with your forum shortname
-                    var disqus_identifier = 'introduction-to-data-science';
-                var disqus_url = 'http://dshatalov.com/2016/05/introduction-to-data-science/';
-            var disqus_config = function () {
-                this.language = "en";
-            };
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function () {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-    </section>
         </article>
     </section>
 
